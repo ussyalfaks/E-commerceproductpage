@@ -6,10 +6,11 @@ import Thumbnails from "./components/Thumbnails";
 import Cart from "./components/Cart";
 import ProductDetails from "./components/ProductDetails";
 import Lightbox from "./components/Lightbox";
+import SneakersImg1 from './assets/product1.jpg'
 
 
 const App = () => {
-  const [selectedImage, setSelectedImage] = useState('https://via.placeholder.com/600');
+  const [selectedImage, setSelectedImage] = useState(SneakersImg1);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [cartItems, setCartItems] = useState([]);
 

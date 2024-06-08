@@ -15,4 +15,3 @@ ProductImage.propTypes = {
 };
 
 export default ProductImage;
-

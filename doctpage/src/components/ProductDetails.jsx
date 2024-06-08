@@ -3,12 +3,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 
+
 const ProductDetails = ({ addToCart }) => {
   const product = {
-    name: "Awesome Product",
+    name: "Sneakers ",
     description: "This is an awesome product.",
-    price: 99.99,
-    image: "https://via.placeholder.com/600"
+    price: 99.99
   };
 
   return (

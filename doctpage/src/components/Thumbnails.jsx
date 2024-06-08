@@ -9,7 +9,7 @@ const Thumbnails = ({ images, setImage }) => {
           key={idx}
           src={img}
           alt={`Thumbnail ${idx}`}
-          className="w-16 h-16 cursor-pointer"
+          className="w-16 h-16 cursor-pointer mt-9"
           onClick={() => setImage(img)}
         />
       ))}
