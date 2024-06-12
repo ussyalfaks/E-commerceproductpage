@@ -27,7 +27,7 @@ const App = () => {
   const removeFromCart = (index) => setCartItems(cartItems.filter((_, idx) => idx !== index));
 
   return (
-    <div className="relative">
+    <div className="relative ">
       <Navbar />
       <div className="flex p-5 space-x-5">
         <div>
