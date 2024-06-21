@@ -7,8 +7,7 @@ import PropTypes from 'prop-types';
 const ProductDetails = ({ addToCart }) => {
   const product = {
     name: "Sneakers ",
-    description: "This is an awesome product.",
-    price: 99.99
+    description: "Takalmi.",
   };
 
   return (
@@ -18,7 +17,7 @@ const ProductDetails = ({ addToCart }) => {
       <div className="text-xl font-bold">${product.price}</div>
       <button 
         onClick={() => addToCart(product)}
-        className="mt-3 bg-blue-500 text-white p-2 rounded hover:bg-blue-700"
+        className="mt-3 bg-orange-500 text-white p-2 rounded hover:bg-orange-400"
       >
         Add to Cart
       </button>

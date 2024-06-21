@@ -7,6 +7,11 @@ import Cart from "./components/Cart";
 import ProductDetails from "./components/ProductDetails";
 import Lightbox from "./components/Lightbox";
 import SneakersImg1 from './assets/product1.jpg'
+import SneakersImg2 from './assets/product-4.jpg'
+import SneakersImg3 from './assets/image-product-2.jpg'
+import SneakersImg4 from './assets/image-product-3.jpg'
+
+
 
 
 const App = () => {
@@ -15,11 +20,11 @@ const App = () => {
   const [cartItems, setCartItems] = useState([]);
 
   const images = [
-    'https://via.placeholder.com/600',
-    'https://via.placeholder.com/600/0000FF',
-    'https://via.placeholder.com/600/008000',
-    'https://via.placeholder.com/600/FFFF00'
-  ];
+    SneakersImg1,
+    SneakersImg3,
+    SneakersImg4,
+    SneakersImg2
+    ];
 
   const openLightbox = () => setLightboxOpen(true);
   const closeLightbox = () => setLightboxOpen(false);
