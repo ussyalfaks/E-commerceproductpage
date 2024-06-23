@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 
 const Thumbnails = ({ images, setImage }) => {
   return (
-    <div className="flex space-x-2">
+    <div className="flex space-x-9">
       {images.map((img, idx) => (
         <img
           key={idx}
           src={img}
           alt={`Thumbnail ${idx}`}
-          className="w-16 h-16 cursor-pointer mt-9"
+          className="w-[4.5rem] h-[4.5rem] rounded-md cursor-pointer  mt-9"
           onClick={() => setImage(img)}
         />
       ))}

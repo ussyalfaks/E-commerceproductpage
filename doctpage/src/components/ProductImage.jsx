@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 const ProductImage = ({ image, openLightbox }) => {
   return (
     <div onClick={openLightbox}>
-      <img src={image} alt="Product" className="cursor-pointer w-full" />
+      <img src={image} alt="Product" className="cursor-pointer rounded-xl w-[25rem]" />
     </div>
-  );
+  )
 };
 
 ProductImage.propTypes = {
